@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reserva de la Biosfera - Perú</title>
+
+<style>
+*{
+margin:0; 
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#f4f4f4;
+color:#333;
+}
+
+header{
+background:linear-gradient(135deg,#1b5e20,#4caf50);
+color:white;
+text-align:center;
+padding:60px 20px;
+}
+
+header h1{
+font-size:45px;
+margin-bottom:10px;
+}
+
+header p{
+font-size:20px;
+}
+
+nav{
+background:#0f3d16;
+padding:15px;
+text-align:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+.hero{
+max-width:1200px;
+margin:auto;
+padding:30px;
+}
+
+.hero img{
+width:100%;
+border-radius:15px;
+}
+
+.section-title{
+text-align:center;
+color:#1b5e20;
+margin:40px 0 20px;
+font-size:35px;
+}
+
+.productos{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:20px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+.card img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.card h3{
+padding:15px;
+color:#1b5e20;
+}
+
+.card p{
+padding:0 15px 15px;
+}
+
+.boton{
+display:block;
+background:#1b5e20;
+color:white;
+text-decoration:none;
+padding:12px;
+text-align:center;
+margin:15px;
+border-radius:10px;
+}
+
+.contacto{
+max-width:700px;
+margin:40px auto;
+padding:20px;
+}
+
+.contacto input,
+.contacto textarea{
+width:100%;
+padding:15px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:8px;
+}
+
+.contacto button{
+background:#1b5e20;
+color:white;
+border:none;
+padding:15px 30px;
+border-radius:10px;
+cursor:pointer;
+}
+
+footer{
+background:#1b5e20;
+color:white;
+text-align:center;
+padding:25px;
+margin-top:40px;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+width:70px;
+height:70px;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:35px;
+text-decoration:none;
+color:white;
+box-shadow:0 4px 10px rgba(0,0,0,.3);
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>🌎 Reserva de la Biosfera</h1>
+<p>Venta de plantas ornamentales y ecológicas a nivel nacional</p>
+</header>
+
+<nav>
+<a href="#">Inicio</a>
+<a href="#productos">Productos</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero">
+<img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=1200" alt="Plantas">
+</section>
+
+<h2 class="section-title" id="productos">Nuestras Plantas</h2>
+
+<section class="productos">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1459156212016-c812468e2115?w=800">
+<h3>Orquídeas</h3>
+<p>Hermosas orquídeas para decorar tu hogar.</p>
+<a class="boton" href="https://wa.me/51901854181">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800">
+<h3>Suculentas</h3>
+<p>Fáciles de cuidar y muy resistentes.</p>
+<a class="boton" href="https://wa.me/51901854181">Comprar</a>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1463154545680-d59320fd685d?w=800">
+<h3>Plantas Medicinales</h3>
+<p>Ideales para jardines ecológicos.</p>
+<a class="boton" href="https://wa.me/51901854181">Comprar</a>
+</div>
+
+</section>
+
+<section class="contacto" id="contacto">
+<h2 class="section-title">Contacto</h2>
+
+<input type="text" placeholder="Nombre">
+<input type="email" placeholder="Correo">
+<textarea rows="5" placeholder="Mensaje"></textarea>
+
+<button>Enviar</button>
+</section>
+
+<footer>
+<h2>Reserva de la Biosfera - Perú</h2>
+<p>Creado por Brayhans Campos © 2026</p>
+<p>WhatsApp: 901854181</p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/51901854181">💬</a>
+
+</body>
+</html>
